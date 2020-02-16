@@ -27,7 +27,6 @@ def conditional_shutdown():
             if timenow >= 23 or timenow < 5:
                 os.system('shutdown -s -t 1')
             else:
-                print('You\'re clear')
                 pass
         time.sleep(540)
 
